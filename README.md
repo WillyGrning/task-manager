@@ -25,4 +25,8 @@ Cocok untuk:
 
 ## 🧠 Arsitektur & Konsep
 
-Project ini **tidak menggunakan framework**, namun tetap menerapkan pemisahan tanggung jawab:
+Project ini **tidak menggunakan framework**, namun tetap menerapkan pemisahan tanggung jawab
+
+## 🌐 Live Demo
+
+👉 https://willygrning.github.io/task-manager/
