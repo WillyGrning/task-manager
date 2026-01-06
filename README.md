@@ -1,31 +1,33 @@
 # Task Manager – Vanilla JavaScript
 
-Aplikasi **Task Manager sederhana** berbasis **Vanilla JavaScript** tanpa framework.
-Project ini dibuat dengan fokus pada **struktur kode yang rapi**, **UX yang halus**, dan **praktik frontend yang realistis untuk production**.
+A **simple Task Manager application** built with **Vanilla JavaScript**, without any frameworks.  
+This project focuses on **clean code structure**, **smooth user experience**, and **realistic frontend practices suitable for production environments**.
 
-Cocok untuk:
-- Portfolio frontend
-- Latihan state management tanpa framework
-- Contoh clean architecture di Vanilla JS
-
----
-
-## ✨ Fitur Utama
-
-- ✅ Tambah, hapus, dan tandai task selesai
-- 🔍 Search task secara real-time
-- 🎯 Filter task (All / Active / Completed)
-- 🌙 Dark Mode & ☀️ Light Mode
-- 🎨 Animasi micro-interaction & smooth theme transition
-- 💾 Persistensi data menggunakan LocalStorage
-- 📱 Responsive & mobile-friendly
-- 🔒 Aman dari XSS (escape input user)
+Suitable for:
+- Frontend portfolio
+- Practicing state management without frameworks
+- Demonstrating clean architecture in Vanilla JavaScript
 
 ---
 
-## 🧠 Arsitektur & Konsep
+## ✨ Key Features
 
-Project ini **tidak menggunakan framework**, namun tetap menerapkan pemisahan tanggung jawab
+- ✅ Add, delete, and mark tasks as completed  
+- 🔍 Real-time task search  
+- 🎯 Task filtering (All / Active / Completed)  
+- 🌙 Dark Mode & ☀️ Light Mode  
+- 🎨 Micro-interactions and smooth theme transitions  
+- 💾 Data persistence using LocalStorage  
+- 📱 Responsive and mobile-friendly design  
+- 🔒 XSS-safe (user input is properly escaped)
+
+---
+
+## 🧠 Architecture & Concepts
+
+This project **does not use any framework**, yet still applies proper separation of concerns and maintainable architecture principles.
+
+---
 
 ## 🌐 Live Demo
 
