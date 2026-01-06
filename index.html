@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,12 +20,12 @@
 
       <header class="app-header">
         <h1>Task Manager</h1>
-        <p class="subtitle">Kelola tugas harianmu dengan sederhana</p>
+        <p class="subtitle">Manage your daily tasks with ease</p>
 
         <!-- COUNTER -->
         <div class="task-counter" id="taskCounter">
-          <span id="activeCount">0</span> Aktif •
-          <span id="completedCount">0</span> Selesai
+          <span id="activeCount">0</span> Active •
+          <span id="completedCount">0</span> Completed
         </div>
       </header>
 
@@ -34,28 +34,30 @@
           <input
             type="text"
             id="taskInput"
-            placeholder="Tulis task baru..."
+            placeholder="Write a new task..."
             required
           />
-          <button type="submit">Tambah</button>
+          <button type="submit">Add</button>
         </form>
       </section>
 
       <!-- SEARCH -->
       <section class="task-search">
-        <input type="text" id="searchInput" placeholder="Cari task..." />
+        <input type="text" id="searchInput" placeholder="Search tasks..." />
       </section>
 
       <!-- FILTER -->
       <section class="filters">
-        <button class="filter-btn active" data-filter="all">Semua</button>
-        <button class="filter-btn" data-filter="active">Aktif</button>
-        <button class="filter-btn" data-filter="completed">Selesai</button>
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="active">Active</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
       </section>
 
       <section class="task-list">
         <ul id="taskList"></ul>
-        <p id="emptyState" class="empty-state">Tidak ada task yang cocok.</p>
+        <p id="emptyState" class="empty-state">
+          No matching tasks found.
+        </p>
       </section>
     </main>
 
