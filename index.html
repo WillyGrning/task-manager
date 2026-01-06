@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <button
+        id="themeToggle"
+        class="theme-toggle"
+        aria-label="Toggle dark mode"
+        title="Toggle theme"
+      >
+        <span class="icon-sun">☀️</span>
+        <span class="icon-moon">🌙</span>
+      </button>
+
+      <header class="app-header">
+        <h1>Task Manager</h1>
+        <p class="subtitle">Kelola tugas harianmu dengan sederhana</p>
+
+        <!-- COUNTER -->
+        <div class="task-counter" id="taskCounter">
+          <span id="activeCount">0</span> Aktif •
+          <span id="completedCount">0</span> Selesai
+        </div>
+      </header>
+
+      <section class="task-input">
+        <form id="taskForm" autocomplete="off">
+          <input
+            type="text"
+            id="taskInput"
+            placeholder="Tulis task baru..."
+            required
+          />
+          <button type="submit">Tambah</button>
+        </form>
+      </section>
+
+      <!-- SEARCH -->
+      <section class="task-search">
+        <input type="text" id="searchInput" placeholder="Cari task..." />
+      </section>
+
+      <!-- FILTER -->
+      <section class="filters">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="active">Aktif</button>
+        <button class="filter-btn" data-filter="completed">Selesai</button>
+      </section>
+
+      <section class="task-list">
+        <ul id="taskList"></ul>
+        <p id="emptyState" class="empty-state">Tidak ada task yang cocok.</p>
+      </section>
+    </main>
+
+    <script src="assets/js/task.js"></script>
+    <script src="assets/js/storage.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
